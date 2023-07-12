@@ -1,0 +1,53 @@
+/* Define your font families and colors to match the desired style */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.about-page {
+  padding: 50px;
+  text-align: center;
+}
+
+.content-wrapper {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 32px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 5px;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+}
