@@ -1,0 +1,50 @@
+/* About.css */
+.about {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+}
+
+.about-person {
+  flex: 1;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.about-person:hover {
+  transform: translateY(-5px);
+}
+
+.person-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.person-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.person-description {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.6;
+}
