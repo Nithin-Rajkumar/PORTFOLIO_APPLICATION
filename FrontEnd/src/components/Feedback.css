@@ -1,0 +1,71 @@
+/* Feedback.css */
+
+/* Styles for the overall container */
+.bod {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Styles for the inner container */
+.body-in {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 25px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input and textarea styles */
+.input,
+.text {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Submit button styles */
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Navbar styles (you might need to adjust this based on your Navbar component) */
+/* Assuming it's a simple horizontal navbar with anchor tags */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
